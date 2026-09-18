@@ -3,6 +3,7 @@
   <head>
     <title>Пример подключения плеера</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
   </head>
   <body>
     <div id="player" style="width: 800px; height: 600px;">
@@ -13,7 +14,7 @@
     <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
     <script src="player.js"></script>
 
-    <button>Play!</button>
+    <button><i class="fa fa-play" aria-hidden="true"></i></button>
 
     <script type="text/javascript">
       createPlayer({elementId: 'player'});
