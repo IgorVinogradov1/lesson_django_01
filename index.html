@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../static/css/font-awesome.min.css">
     <style>
-      .player-button {
+      .fa-buttons {
         border-style: hidden;
         background-color: rgba(255, 255, 255, 0);
         color: white;
@@ -18,14 +18,14 @@
     <div id="player" style="width: 800px; height: 600px;">
         <div class="js-video-container" style="width: 100%; height: 100%"></div>
         <div style="background-color: black;">
-          <button class="player-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-          <button class="player-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
+          <button class="js-play-button fa-buttons"><i class="fa fa-play" aria-hidden="true"></i></button>
+          <button class="js-pause-button fa-buttons" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-    <script src="player.js"></script>
+    <script src="../static/js/player.js"></script>
 
     <script type="text/javascript">
       createPlayer({elementId: 'player'});
