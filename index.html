@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../static/css/font-awesome.min.css">
     <style>
+      .flexible-player {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
       .player-shadow {
         box-shadow: 0 0 10px rgba(0, 0, 0,  1);
       }
@@ -25,8 +30,8 @@
     </style>
   </head>
   <body>
-    <div id="player" class="player-shadow" style="width: 800px; height: 600px;">
-        <div class="js-video-container" style="width: 100%; height: 100%"></div>
+    <div id="player" class="player-shadow flexible-player" style="width: 800px; height: 600px;">
+        <div class="js-video-container flexible-player"></div>
         <div class="control-panel">
           <button class="js-play-button player-buttons"><i class="fa fa-play" aria-hidden="true"></i></button>
           <button class="js-pause-button player-buttons" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
