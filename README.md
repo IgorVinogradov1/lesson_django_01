@@ -15,7 +15,7 @@
 
 ## Что это?
 
-Видеоплеер с минимальным набором кнопок (play, volume, fullscreen):
+Простой фронтенд-проект с кастомным медиаплеером на базе библиотеки Playable:
 
 <img width="600" height="448" alt="Скриншот плеера" src="https://gist.github.com/user-attachments/assets/4fcbaa6e-9752-4dc8-9528-c4d6dc2fe9d6" />
 
