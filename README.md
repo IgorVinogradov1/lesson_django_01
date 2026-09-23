@@ -17,7 +17,7 @@
 
 Простой фронтенд-проект с кастомным медиаплеером на базе библиотеки Playable:
 
-<img width="600" height="448" alt="Скриншот плеера" src="https://gist.github.com/user-attachments/assets/4fcbaa6e-9752-4dc8-9528-c4d6dc2fe9d6" />
+<img width="600" height="448" alt="player_screenshot" src="https://github.com/user-attachments/assets/6b309d5d-365d-408e-becb-3065e378f5c2" />
 
 Этот код добавит на страницу плеер, который играет видео по [этой ссылке](https://dvmn.org/media/filer_public/78/db/78db3456-3fd3-4504-9ed9-d2d1fd843c0b/highest_peak.mp4).
 
