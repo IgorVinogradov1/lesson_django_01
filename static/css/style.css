@@ -1,7 +1,8 @@
       .flexible-player {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
+        width: 800px;
+        height: 600px;
       }
       .spacer {
         flex-grow: 1;
