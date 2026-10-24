@@ -13,6 +13,8 @@
       .control-panel {
         background-color: black;
         display: flex;
+        align-items: center;
+        column-gap: 0px;
       }
       .player-buttons {
         border-style: hidden;
@@ -25,4 +27,21 @@
         padding: 3px;
         font-size: 131%;
         text-align: left;
+      }
+      .roboto-time {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        color: white;
+        font-size: 17px;
+      }
+      .video-timeline {
+        background-color: grey;
+        height: 20px;
+      }
+      .video-timeline-slider {
+        background-color: red;
+        height: 100%;
       }

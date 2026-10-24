@@ -20,9 +20,16 @@
           <button class="js-pause-button player-buttons" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
           <button class="js-volume-button player-buttons"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
           <button class="js-mute-button player-buttons" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-          <div class="spacer"></div>
+          <span class="js-current-time roboto-time"></span>
+          <div class="js-progress video-timeline spacer">
+            <div class="js-progress-slider video-timeline-slider">Прогресс</div>
+          </div>
+          <span class="js-duration roboto-time"></span>    
+
+          <!-- <div class="spacer"></div> -->
           <button class="js-fullscreen-button player-buttons"><i class="fa fa-expand" aria-hidden="true"></i></button>
         </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
