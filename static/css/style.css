@@ -28,6 +28,10 @@
         font-size: 130%;
         text-align: left;
       }
+      .player-buttons:focus {
+        outline: none;
+        color: grey;
+      }
       .roboto-time {
         font-family: "Roboto", sans-serif;
         font-optical-sizing: auto;
